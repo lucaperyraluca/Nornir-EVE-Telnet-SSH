@@ -1,0 +1,89 @@
+---
+SW1:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32775
+R1:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32769
+
+R2:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32770
+
+R3:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32771
+
+R4:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32772
+
+R5:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32773
+
+R6:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32774
+
+R7:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32776
+
+R8:
+  hostname: "192.168.92.139"
+  groups:
+    - "cisco_ios_group"
+  connection_options:
+    netmiko:
+      extras:
+        device_type: "cisco_ios_telnet"
+        port: 32777

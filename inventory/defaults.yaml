@@ -1,0 +1,8 @@
+---
+username: "admin"
+password: "admin"
+platform: "cisco_ios"
+connection_options:
+  netmiko:
+    extras:
+      timeout: 60

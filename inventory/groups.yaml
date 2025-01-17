@@ -1,0 +1,5 @@
+---
+cisco_ios_group:
+  platform: "cisco_ios"
+  data:
+    domain_name: "cisco.com"
