@@ -1,7 +1,6 @@
 # Nornir EVE Telnet/SSH Automation
 
-This repository contains an automation setup using [Nornir](https://nornir.readthedocs.io) to manage and configure multiple Cisco IOS devices via Telnet (initially) and SSH. It is designed to work in an EVE-NG lab environment, where routers and switches are connected to a cloud interface that bridges to an Ubuntu VM running Nornir.
-I created this because I used to spend a lot of time configuring SSH on a device by device basis so I could use my other scripts that use SSH.
+This repository contains an automation setup using [Nornir](https://nornir.readthedocs.io) to manage and configure multiple Cisco IOS devices via Telnet. It is designed to work in an EVE-NG lab environment, where routers and switches are connected to a cloud interface that bridges to an Ubuntu VM running Nornir. I created this because I used to spend a lot of time configuring SSH on a device by device basis so I could use my other scripts that use SSH.
 
 ## Overview
 
