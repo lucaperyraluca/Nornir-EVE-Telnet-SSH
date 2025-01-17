@@ -5,10 +5,7 @@ from nornir_netmiko.tasks import netmiko_send_config
 from nornir_utils.plugins.functions import print_result
 
 def configure_ssh(task):
-    # Podemos tomar el domain_name desde el grupo "cisco_ios_group"
     domain_name = task.host.get("data", {}).get("domain_name", "cisco.com")
-    
-    # Cambiar hostname al nombre del host
     new_hostname = task.host.name
 
     config_cmds = [
@@ -23,7 +20,6 @@ def configure_ssh(task):
         "username admin secret admin"
     ]
 
-    # Ejecutamos la configuración
     result = task.run(
         task=netmiko_send_config,
         config_commands=config_cmds
