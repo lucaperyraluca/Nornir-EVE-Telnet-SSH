@@ -21,7 +21,7 @@ I created this because I used to spend a lot of time configuring SSH on a device
 
 Below is an example of the lab topology in EVE-NG:
 
-![Topology Diagram](images/topology.png)
+![Topology Diagram](images/Topology.png)
 
 > In this topology, R1, R2, R4, R5, R6, R7, and R8 are connected via various subnets and OSPF. R3 is bridging to the "cloud" interface that provides DHCP and external connectivity to an Ubuntu VM running Nornir.
 
