@@ -46,7 +46,7 @@ Below is an example of the lab topology in EVE-NG:
 ## Configure:
 
 Update nornir.yaml if needed.
-Edit inventory/hosts.yaml to match your device IPs/ports (Notice that the ports are assigned by EVE, you can see its putting your mouse on the device, on the left-down corner you will see the ip and port).
+Edit inventory/hosts.yaml to match your device IPs/ports (Note: EVE-NG dynamically assigns the ports; you can find them by hovering your mouse over the device, checking the bottom-left corner.)
 Modify any script (configure_ssh.py, configure_ospf.py, etc.) as desired.
 
 ## Run:
