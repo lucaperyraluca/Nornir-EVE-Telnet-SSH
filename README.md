@@ -2,6 +2,9 @@
 
 This repository contains an automation setup using [Nornir](https://nornir.readthedocs.io) to manage and configure multiple Cisco IOS devices via Telnet. It is designed to work in an EVE-NG lab environment, where routers and switches are connected to a cloud interface that bridges to an Ubuntu VM running Nornir. I created this because I used to spend a lot of time configuring SSH on a device by device basis so I could use my other scripts that use SSH.
 
+In the Inventory folder, there are three files: defaults.yaml, groups.yaml, and hosts.yaml. You need to modify hosts.yaml to match your topology and the correct Telnet ports for each device. Inside defaults.yaml, you can set the credentials you wish to use. If you don't change them, the username and password will default to admin.
+Notice that the enable password is set in configure_ssh.py (line 18). You can modify this value as well, if desired.
+
 ## Overview
 
 - **Language**: Python 3
