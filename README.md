@@ -28,7 +28,9 @@ Below is an example of the lab topology in EVE-NG:
 ## Installation & Usage
 
 1. **Clone** this repository:
+   
    git clone https://github.com/YOUR_USERNAME/Nornir-EVE-Telnet-SSH.git
+   
    cd Nornir-EVE-Telnet-SSH
 
 ## Create and activate a Python virtual environment
