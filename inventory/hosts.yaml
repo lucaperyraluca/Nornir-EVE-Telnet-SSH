@@ -8,6 +8,12 @@ SW1:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32775
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.100
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
+
 R1:
   hostname: "192.168.92.139"
   groups:
@@ -17,6 +23,11 @@ R1:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32769
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.101
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
 
 R2:
   hostname: "192.168.92.139"
@@ -27,6 +38,11 @@ R2:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32770
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.102
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
 
 R3:
   hostname: "192.168.92.139"
@@ -37,6 +53,11 @@ R3:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32771
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.103
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
 
 R4:
   hostname: "192.168.92.139"
@@ -47,6 +68,11 @@ R4:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32772
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.104
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
 
 R5:
   hostname: "192.168.92.139"
@@ -57,6 +83,11 @@ R5:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32773
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.105
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
 
 R6:
   hostname: "192.168.92.139"
@@ -67,6 +98,11 @@ R6:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32774
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.106
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
 
 R7:
   hostname: "192.168.92.139"
@@ -77,6 +113,11 @@ R7:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32776
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.107
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
 
 R8:
   hostname: "192.168.92.139"
@@ -87,3 +128,8 @@ R8:
       extras:
         device_type: "cisco_ios_telnet"
         port: 32777
+  data:
+    domain_name: example.com
+    management_ip: 192.168.1.108
+    management_interface: Ethernet0/3
+    management_mask: 255.255.255.0
